@@ -5,8 +5,8 @@ spring:
     stream:
       bindings:
         userConsumer-in-0:
-          destination: topic1
+          destination: userTopic
         cryptocurrencyConsumer-in-0:
-          destination: topic2
+          destination: cryptocurrencyTopic,cryptocurrencyTopic2
       binder:
         brokers: localhost:9092

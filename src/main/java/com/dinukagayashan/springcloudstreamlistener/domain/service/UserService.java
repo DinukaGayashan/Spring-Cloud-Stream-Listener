@@ -1,5 +1,7 @@
 package com.dinukagayashan.springcloudstreamlistener.domain.service;
 
-public interface UserService {
+import com.dinukagayashan.springcloudstreamlistener.domain.dto.UserDto;
 
+public interface UserService {
+    void printUser(UserDto user);
 }
